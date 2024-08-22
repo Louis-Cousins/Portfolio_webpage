@@ -15,11 +15,12 @@ header {
     background-color: #f0f0f0;
     padding: 20px 0;
     text-align: center;
+    background-color: #7a7979;
 }
 
 header h1 {
     font-size: 2.5em;
-    color: #333;
+    color: hsl(0, 0%, 8%);
 }
 
 nav ul {
@@ -34,7 +35,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #555;
+    color: hsl(0, 0%, 8%);;
     font-weight: bold;
 }
 
@@ -61,17 +62,15 @@ nav ul li a:hover {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Flexible grid columns */
-    gap: 20px; /* Space between grid items */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 20px; 
 }
 
 .project {
-    background-color: #7a7979; /* Distinct white background */
+    background-color: #7a7979; 
     padding: 20px;
-    border-radius: 10px; /* Smoother rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for box effect */
-    border: 1px solid #ddd; /* Light border for distinction */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+    border-radius: 10px; 
+    border: 1px solid #ddd; 
 }
 
 .project h3 {
@@ -79,7 +78,7 @@ nav ul li a:hover {
     color: hsl(0, 0%, 0%);
     font-size: 1.5em; 
     font-weight: bolder;
-    border-bottom: 2px solid #eee; /* Underline heading with a subtle border */
+    border-bottom: 2px solid #eee; 
     padding-bottom: 10px;
 }
 
@@ -87,16 +86,13 @@ nav ul li a:hover {
     color: hsl(0, 0%, 0%);
     font-size: 1em;
     font-weight: bold;
-    line-height: 1.5; /* Line spacing for readability */
+    line-height: 1.5; 
 }
 
-/* Hover effects for a more dynamic feel */
 .project:hover {
-    transform: translateY(-10px); /* Slight upward lift on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
-
-
 
 form {
     display: flex;
